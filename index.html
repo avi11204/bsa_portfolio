@@ -3,197 +3,232 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Avanthikha BS | Portfolio</title>
+  
+  <title>Avanthikha BS | Portfolio  </title>
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Devicon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  <link rel="icon" type="image/png" href="images/logofinal.png" />
+ <link rel="icon" type="image/png" href="images/logofinal.png" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="images/image.png" alt="Your Logo" />
+      </a>
+      <nav class="main-nav" id="main-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+    </div>
+  </header>
 
-<!-- Header -->
-<header class="site-header">
-  <div class="container">
-    <a href="#" class="logo">
-      <img src="images/image.png" alt="Logo" />
-    </a>
-    <nav class="main-nav">
-      <a href="#about">About</a>
-      <a href="#projects">Work</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
-
-<!-- Hero -->
-<section class="hero">
+  <!-- Hero Section -->
+ <section class="hero">
   <div class="container">
     <h2>Hello, I'm <span>Avanthikha</span></h2>
-    <p>
-      UI/UX Designer & Developer crafting intuitive digital experiences
-      through thoughtful design and clean, scalable code.
-    </p>
+    <p>A passionate UI/UX designer who loves crafting thoughtful, user-centered digital experiences.</p>
+    <div class="social-icons-container">
+  <div class="social-icons">
+    <a href="mailto:avanthikha11204@gmail.com" class="icon"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/avanthikha-bharanedharan-3b9395259/" class="icon active" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="https://dribbble.com/Avanthikha" class="icon" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
+    <a href="https://github.com/avi11204" class="icon" target="_blank"><i class="fa-brands fa-github"></i></a>
+  </div>
+  <a href="#projects" class="cta-btn alt">Explore My Work</a>
+</div>
 
-    <div class="social-icons">
-      <a href="mailto:avanthikha11204@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-      <a href="https://www.linkedin.com/in/avanthikha-bharanedharan-3b9395259/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-      <a href="https://dribbble.com/Avanthikha" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
-      <a href="https://github.com/avi11204" target="_blank"><i class="fa-brands fa-github"></i></a>
+</section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+         <p>
+          I'm a passionate student with a strong interest in UI/UX design and a growing portfolio of user-centric digital experiences. Beyond design, I bring solid skills in front-end development, full-stack engineering, and machine learning.
+  
+         I enjoy combining creativity and code—designing seamless interfaces and building them with responsive, clean code. Whether it's a web app, a prototype, or a data-driven product, I love tackling real problems with thoughtful, user-first solutions.
+    </p>
+      <a href="Avanthikha-BS_RESUME (1).pdf" class="resume-btn" download>Download Resume</a>
     </div>
+  </section>
 
-    <a href="#projects" class="cta-btn">Explore My Work</a>
-  </div>
-</section>
-
-<!-- About -->
-<section id="about" class="about">
-  <div class="container">
-    <h2>About Me</h2>
-    <p>
-      I’m a UI/UX design–driven developer with hands-on experience in
-      front-end, full-stack systems, and machine learning projects.
-      I enjoy turning complex problems into intuitive user experiences —
-      from research and wireframes to responsive, production-ready applications.
-    </p>
-    <a href="Avanthikha-BS_RESUME (1).pdf" download class="resume-btn">Download Resume</a>
-  </div>
-</section>
-
-<!-- Projects -->
-<section id="projects" class="projects">
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
   <div class="container">
     <h2>My Projects</h2>
+    <div class="project-cards">
+      
+      <div class="project-card">
+        <img src="images/Screenshot (836).png" alt="Project Thumbnail">
+        <div class="card-content">
+          <h3>Gourmet Atlas</h3>
+          <p>A global food discovery platform helping users explore world cuisines with curated visuals and filters.</p>
+          <p><strong>Tech Stack:</strong> MERN</p>
+          <div class="project-links">
+            <a href="https://github.com/avi11204/Gourmet_atlas" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
 
-    <!-- Tabs -->
-    <div class="project-tabs">
-      <button class="tab-btn active" onclick="showProjects('design')">UI / UX</button>
-      <button class="tab-btn" onclick="showProjects('fullstack')">Full Stack</button>
-      <button class="tab-btn" onclick="showProjects('console')">Console</button>
-      <button class="tab-btn" onclick="showProjects('ml')">Machine Learning</button>
+      <div class="project-card">
+        <img src="images/Screenshot 2025-05-07 212146.png" alt="Project Thumbnail">
+        <div class="card-content">
+          <h3>Quarry Manager</h3>
+          <p>A quarry operations dashboard to streamline booking, stock tracking, and delivery logistics for stone and gravel management.</p>
+          <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+          <div class="project-links">
+            
+            <a href="https://github.com/avi11204/consultancy" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <img src="images/lv.gif" alt="Project Thumbnail">
+        <div class="card-content">
+          <h3>Oven Alchemy</h3>
+          <p>A UI/UX redesign of a bakery mobile app focused on improving navigation and boosting user retention through better visual hierarchy and flow.</p>
+          <p><strong>Tech Stack:</strong> Figma</p>
+          <div class="project-links">
+            <a href="https://www.figma.com/design/lHSixqYfjKXQGCCtg53IYE/oven_alchemy_final?node-id=0-1&t=LctgZnZV1VhWbJ6x-1" target="_blank">Figma</a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://ebv2e3r5onu.exactdn.com/wp-content/uploads/2022/07/shutterstock_1274873035-scaled.jpg?strip=all&lossy=1&ssl=1" alt="Project Thumbnail">
+        <div class="card-content">
+          <h3>ML Survival Prediction</h3>
+          <p>Analyzed multiple ML models to predict lung cancer patient survival rates, improving medical prognosis accuracy.</p>
+          <p><strong>Tech Stack:</strong> Python, Scikit-learn, Pandas, Matplotlib</p>
+          <div class="project-links">
+           
+            <!-- <a href="https://github.com/" target="_blank">Google Collab</a> -->
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="images/Frame 8 (5).png" alt="Project Thumbnail">
+        <div class="card-content">
+          <h3> BookBuddy</h3>
+          <p>A minimalist book recommendation app that helps users discover titles based on genre, mood, and personal preferences.</p>
+          <p><strong>Tech Stack:</strong> Figma</p>
+          <div class="project-links">
+            <a href="https://www.figma.com/proto/owSlesLLBokrlag4DZzztg/Design-1?node-id=1-4&starting-point-node-id=1%3A4&t=cBkxBuvnW8DvLPUX-1" target="_blank">Figma</a>
+           
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://cdn.builtin.com/cdn-cgi/image/f=auto,fit=cover,w=1200,h=635,q=80/https://builtin.com/sites/www.builtin.com/files/2021-12/machine-learning-examples-applications.png" alt="Project Thumbnail">
+        <div class="card-content">
+          <h3>Alzheimer’s ML Prediction</h3>
+          <p>Developed ML models to detect early-stage Alzheimer's using patient data, improving diagnostic support for clinicians.</p>
+          <p><strong>Tech Stack:</strong> Python, Scikit-learn, Pandas, Seaborn</p>
+          <div class="project-links">
+            <!-- <a href="https://www.figma.com/" target="_blank">Figma</a>
+            <a href="https://github.com/" target="_blank">GitHub</a> -->
+          </div>
+        </div>
+      </div>
+
     </div>
-
-    <!-- UI/UX -->
-    <div class="project-group active" id="design">
-      <div class="project-card">
-        <img src="images/lv.gif">
-        <h3>Oven Alchemy</h3>
-        <p>UI/UX redesign focused on improving navigation and visual hierarchy.</p>
-        <p><strong>Role:</strong> UI/UX Designer</p>
-        <a href="https://www.figma.com/design/lHSixqYfjKXQGCCtg53IYE/oven_alchemy_final" target="_blank">View on Figma</a>
-      </div>
-
-      <div class="project-card">
-        <img src="images/Frame 8 (5).png">
-        <h3>BookBuddy</h3>
-        <p>Minimalist book discovery app designed around mood and genre.</p>
-        <p><strong>Role:</strong> UI/UX Designer</p>
-        <a href="https://www.figma.com/proto/owSlesLLBokrlag4DZzztg/Design-1" target="_blank">View on Figma</a>
-      </div>
-    </div>
-
-    <!-- Full Stack -->
-    <div class="project-group" id="fullstack">
-      <div class="project-card">
-        <img src="images/Screenshot (836).png">
-        <h3>Gourmet Atlas</h3>
-        <p>Global food discovery platform with curated cuisines.</p>
-        <p><strong>Tech:</strong> MERN</p>
-        <a href="https://github.com/avi11204/Gourmet_atlas" target="_blank">GitHub</a>
-      </div>
-
-      <div class="project-card">
-        <img src="images/Screenshot 2025-05-07 212146.png">
-        <h3>Quarry Manager</h3>
-        <p>Dashboard to manage quarry operations and logistics.</p>
-        <p><strong>Tech:</strong> HTML, CSS, JS</p>
-        <a href="https://github.com/avi11204/consultancy" target="_blank">GitHub</a>
-      </div>
-    </div>
-
-    <!-- Console -->
-    <div class="project-group" id="console">
-      <div class="project-card">
-        <h3>Student Management System</h3>
-        <p>Console-based CRUD system using C++.</p>
-        <p><strong>Concepts:</strong> OOP, File Handling</p>
-      </div>
-    </div>
-
-    <!-- ML -->
-    <div class="project-group" id="ml">
-      <div class="project-card">
-        <h3>ML Survival Prediction</h3>
-        <p>Lung cancer survival rate prediction using ML models.</p>
-        <p><strong>Tech:</strong> Python, Scikit-learn</p>
-      </div>
-
-      <div class="project-card">
-        <h3>Alzheimer’s Detection</h3>
-        <p>Early-stage Alzheimer’s detection using MRI data.</p>
-        <p><strong>Tech:</strong> Python, CNN</p>
-      </div>
-    </div>
-
   </div>
 </section>
-
-<!-- UX Process -->
-<section id="ux-overview" class="ux-process">
+<section id="tech-stack" class="tech-stack">
+  <div class="container">
+    <h2>Technical Stack</h2>
+    <div class="tech-grid">
+      <div class="tech-card"><i class="devicon-c-plain colored"></i><span>C</span></div>
+      <div class="tech-card"><i class="devicon-cplusplus-plain colored"></i><span>C++</span></div>
+      <div class="tech-card"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+      <div class="tech-card"><i class="devicon-python-plain colored"></i><span>Python</span></div>
+      <div class="tech-card"><i class="devicon-html5-plain colored"></i><span>HTML</span></div>
+      <div class="tech-card"><i class="devicon-css3-plain colored"></i><span>CSS</span></div>
+      <div class="tech-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+      <div class="tech-card"><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+      <div class="tech-card"><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+      <div class="tech-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe3GTl6_EntdpYxBhvbbi4HXoAIMYdstReQlwH2_De5fHwxv-AGWjDPJlSfiSydrUv0EI&usqp=CAU" alt="Figma Logo" class="figma-logo" />
+        <span>Figma</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="ux-process" class="ux-process">
   <div class="container">
     <h2>My UX Design Process</h2>
-    <img src="images/ux (1).gif" alt="UX Process">
-  </div>
-</section>
-
-<section id="case-study" class="ux-process">
-  <div class="container">
-    <h2>Case Study – Meaty Mind</h2>
-    <div class="ux-cards">
-      <div class="ux-card">
-        <h3>Affinity Mapping</h3>
-        <a href="https://www.figma.com/board/TE5qyciKMEa5v4Kxv9RNNK/affinity" target="_blank">View →</a>
-      </div>
-      <div class="ux-card">
-        <h3>Storyboard</h3>
-        <a href="https://www.figma.com/design/PqcUkGFt7QlJoIQQ5s7DhT/Untitled" target="_blank">View →</a>
-      </div>
-      <div class="ux-card">
-        <h3>Wireframes</h3>
-        <a href="https://www.figma.com/design/cJ6fIX32SRVB1K0jBevIO9/Untitled" target="_blank">View →</a>
-      </div>
+    <p class="ux-subtitle">A visual walkthrough of my design thinking approach.</p>
+    <div class="ux-gif">
+      <img src="images/ux (1).gif" alt="UX Process GIF" />
     </div>
   </div>
 </section>
 
-<!-- Contact -->
-<section id="contact" class="contact">
+<!-- UX Process Section -->
+<section id="ux-process" class="ux-process">
   <div class="container">
-    <h2>Let’s Connect</h2>
-    <p>
-      Have an idea, product, or problem to solve?
-      Let’s design and build something meaningful together.
-    </p>
-    <a href="mailto:avanthikha11204@gmail.com">avanthikha11204@gmail.com</a>
+    <h2 class="section-title">UX Process – Meaty Mind</h2>
+    <div class="ux-cards">
+
+      <!-- Affinity Mapping Card -->
+      <div class="ux-card">
+        <h3>Affinity Mapping</h3>
+        <p>Grouped insights from research into key patterns like convenience, hygiene, and delivery expectations.</p>
+        <a href="https://www.figma.com/board/TE5qyciKMEa5v4Kxv9RNNK/affinity?node-id=0-1&p=f&t=hmsM8bzllByAtTlZ-0" target="_blank" class="card-link">View Affinity Map →</a>
+      </div>
+
+      <!-- Storyboard Card -->
+      <div class="ux-card">
+        <h3>Storyboard</h3>
+        <p>Mapped out the customer journey from craving to receiving — showing how Meaty Mind solves key user pain points.</p>
+        <!-- Optional image/illustration in future -->
+          <a href="https://www.figma.com/design/PqcUkGFt7QlJoIQQ5s7DhT/Untitled?t=hmsM8bzllByAtTlZ-0" target="_blank" class="card-link">View Storyboard →</a>
+      </div>
+
+      <!-- Wireframes Card -->
+      <div class="ux-card">
+        <h3>Wireframes</h3>
+        <p>Outlined core screens like homepage, catalog, item detail, and checkout to structure a seamless meat-ordering experience.</p>
+        <a href="https://www.figma.com/design/cJ6fIX32SRVB1K0jBevIO9/Untitled?node-id=0-1&p=f&t=OYxuJieXTWTTFBNO-0" target="_blank" class="card-link">View Wireframes →</a>
+      </div>
+
+    </div>
   </div>
 </section>
 
-<footer class="footer">
-  <p>© 2024 Avanthikha BS. All rights reserved.</p>
-</footer>
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Let's Connect</h2>
+      <br>
+<p>Have a concept, prototype, or codebase you'd like to refine? I’m ready to collaborate and engineer impactful solutions.</p>
 
-<!-- Tabs Script -->
-<script>
-function showProjects(category) {
-  document.querySelectorAll('.project-group').forEach(g => g.classList.remove('active'));
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  document.getElementById(category).classList.add('active');
-  event.target.classList.add('active');
-}
-</script>
+   <p>
+  <img src="images/download.png" alt="Rocket Icon" class="rocket-icon" />
+  <a href="mailto:avanthikha11204@gmail.com">avanthikha11204@gmail.com</a>
+</p>
 
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Avanthikha_BS. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
